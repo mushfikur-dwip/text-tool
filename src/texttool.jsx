@@ -5,7 +5,7 @@ import Textform from "./components/Textform.jsx";
 function Texttool() {
   return (
     <>
-      <Navbar title="Text Tool" />
+      <Navbar title="Text Tool" className="header" />
       <div className="container">
         <Textform />
       </div>
